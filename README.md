@@ -1,4 +1,6 @@
-![Sample Image](data/images/unnamed.jpg){ width=300 height=200 }
+# Students performance
+<img src="data/images/unnamed.jpg" alt="Sample Image" width="1920" height="1080">
+
 
 ![](data/images/unnamed.jpg)
 #### created virtual environment
