@@ -10,21 +10,30 @@
 # Project Directory Structure
 
 ```bash
+# Students Performance Project Directory Structure
+
+```bash
 students_performance/
 │── src/
-│   ├── 
-│   ├── 
-│   ├── 
+│   ├── data_ingestion/
+│   │   ├── __init__.py
+│   │   ├── 
+│   │  
+│   ├── data_preprocessing/
+│   ├── model_selection/
+│   ├── prediction/
+│   ├── custom_exception.py
+│   ├── logger.py
+│   ├── utils.py
 │── templates/
 │   ├── index.html
 │   ├── result.html
 │── data/
-│   ├── images
-│   ├── 
+│   ├── images/
 │── .gitignore
 │── setup.py
 │── requirements.txt
 │── README.md
 │── app.py
-│── 
+
 ```
