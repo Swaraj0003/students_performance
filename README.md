@@ -1,3 +1,5 @@
+![Sample Image](data/images/unnamed.jpg){ width=300 height=200 }
+
 ![](data/images/unnamed.jpg)
 #### created virtual environment
 `conda create -p ./stdenv python=3.8`
