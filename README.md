@@ -16,12 +16,13 @@
 students_performance/
 │── src/
 │   ├── data_ingestion/
-│   │   ├── __init__.py
-│   │   ├── 
-│   │  
+│   │   ├── __init__.py  
 │   ├── data_preprocessing/
+│   │   ├── __init__.py
 │   ├── model_selection/
+│   │   ├── __init__.py
 │   ├── prediction/
+│   │   ├── __init__.py
 │   ├── custom_exception.py
 │   ├── logger.py
 │   ├── utils.py
