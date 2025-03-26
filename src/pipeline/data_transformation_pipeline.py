@@ -1,3 +1,5 @@
-from src.components.data_transformation import Datatranformation
-datatrans_pipeline=Datatranformation()
-datatrans_pipeline.transformdata()
+from src.components.data_transformation import DataTransform
+
+datatran=DataTransform()
+      
+datatran.iniate_datatransform()   

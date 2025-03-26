@@ -1,18 +1,18 @@
 import pandas as pd
 import os
+from dataclasses import dataclass
+from src.config import DataTransformationConfig
 
-class Datatranformation:
+class DataTransform:
     def __init__(self):
-        self.rawdatapath=os.path.join("data","raw","rawdata.csv")
-        self.encodeddatapath=os.path.join("data","transformed","transformeddata.csv")
-    def transformdata(self):
-        foldername=os.path.join("data","transformed")
-        os.makedirs(foldername,exist_ok=True)
-        data=pd.read_csv(self.rawdatapath)
+        self.transform_config=DataTransformationConfig()
         
         
         
+    def iniate_datatransform(self):
+       
+        folder= os.path.dirname(self.transform_config.transformed_data_path) 
+        os.makedirs(folder,exist_ok=True)
+        data=pd.read_csv(self.transform_config.raw_data_path)
+        data.to_csv(self.transform_config.transformed_data_path,index=False)
         
-        
-        data.to_csv(self.encodeddatapath,index=False)
-    
