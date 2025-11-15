@@ -16,6 +16,8 @@
 
 students_performance/
 │-- setup.py
+|-- dashboard screen shot
+|-- dashboard created using power bi
 │-- requirements.txt
 │-- README.md
 │-- app.py
@@ -37,6 +39,10 @@ students_performance/
     │   │-- data_ingestion.py
     │   │-- data_transformation.py
     │   │-- model_training.py
+
+
+<img width="887" height="502" alt="STUDENT PERFORMANCE DASHBOARD" src="https://github.com/user-attachments/assets/002503af-5024-43c0-b145-3d393d59540d" />
+
     │   │-- prediction.py
 
 ```
