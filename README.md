@@ -39,13 +39,10 @@ students_performance/
     │   │-- data_ingestion.py
     │   │-- data_transformation.py
     │   │-- model_training.py
-
-
-<img width="887" height="502" alt="STUDENT PERFORMANCE DASHBOARD" src="https://github.com/user-attachments/assets/65000835-d24c-4b14-bd62-b8fb540c96de" />
-
-
-
-
     │   │-- prediction.py
 
 ```
+
+
+
+<img width="887" height="502" alt="STUDENT PERFORMANCE DASHBOARD" src="https://github.com/user-attachments/assets/af7a739c-d483-4024-af63-670a45559c9c" />
