@@ -41,7 +41,10 @@ students_performance/
     │   │-- model_training.py
 
 
-<img width="887" height="502" alt="STUDENT PERFORMANCE DASHBOARD" src="https://github.com/user-attachments/assets/002503af-5024-43c0-b145-3d393d59540d" />
+<img width="887" height="502" alt="STUDENT PERFORMANCE DASHBOARD" src="https://github.com/user-attachments/assets/65000835-d24c-4b14-bd62-b8fb540c96de" />
+
+
+
 
     │   │-- prediction.py
 
